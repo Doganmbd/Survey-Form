@@ -70,25 +70,22 @@ body {
 
 }
 
-#name,
+#Name,
 #surname,
 #email,
 #dropdown,
 #comment, 
 #dropdown2{
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin-top: 10px;
+    
+    
     
 }
 
 
 
-/* input,select,textarea,button {
-    font-family: inherit;
-    font-size: inherit;
-    
-} */
 
 #button {
     width: 300px;
@@ -126,10 +123,12 @@ body {
     font-size: 20px;
 }
 
-p {
-    font-size: 1.5rem;
-    margin-bottom: 0.2rem;
+.comnt {
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
     margin-top: 10px;
+    margin-right: 0px;
+    font-family: 'Mochiy Pop P One', sans-serif;
     
 
 }  
@@ -147,10 +146,4 @@ label {
 
 
 
-
-/* #survey-form {
-    width: 100%;
-    padding 10px ;
-    margin-top: 10px;
-}  */
 
