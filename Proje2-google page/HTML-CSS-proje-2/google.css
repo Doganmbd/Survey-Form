@@ -1,4 +1,9 @@
 @charset "UTF-8";
+/* birşeyler daha 0 dı. */
+html {
+  background: url(./images/appicon5.png) no-repeat center center fixed;
+  background-size: cover;
+}
 
 body {
   margin: 0px auto;
@@ -25,7 +30,7 @@ body {
 }
 
 .top a {
-  color: black;
+  color: #0a0909;
   text-decoration: none;
   display: inline-block;
   line-height: 25px;
@@ -43,7 +48,7 @@ body {
 }
 
 .top img:hover {
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 .top button {
@@ -162,6 +167,7 @@ body {
 
 #path a {
   text-decoration: none;
+  color: aliceblue;
 }
 
 #path .site {
@@ -177,7 +183,7 @@ body {
 
 #path .box {
   margin: 0px 30px;
-  background-color: #f1eaea;
+  background-color: #fdf3f3;
   width: 1.5rem;
   height: 1.5rem;
   -webkit-transition: 0.5s;
@@ -198,9 +204,9 @@ body {
 footer {
   background-color: #f2f2f2;
   position: fixed;
-  bottom: 10px;
+  bottom: 0px;
   width: 100%;
-  height: 60px;
+  height: 70px;
 }
 
 footer h4 {
